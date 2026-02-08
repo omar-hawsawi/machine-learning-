@@ -1,7 +1,6 @@
 import pandas as pd
 #task 1
 df=pd.read_csv("spambase/spambase.data", header=None)
-labels = df.iloc[:, -1].map({1: "spam", 0: "not spam"})
 print("dataset type")
 print(df.dtypes,"\n")
 
